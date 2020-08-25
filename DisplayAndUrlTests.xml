@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="DisplayAndUrlTests" annotations="JDK" parallel="tests">
+
+    <test name="computerSoftTest">
+        <classes>
+            <class name="Tests.ComputerSoftTest"/>
+        </classes>
+    </test>
+
+    <test name="consorteTest">
+        <classes>
+            <class name="Tests.ConsorteTest"/>
+        </classes>
+    </test>
+
+    <test name="narzedziaNonStopTest">
+        <classes>
+            <class name="Tests.NarzedziaNonStopTest"/>
+        </classes>
+    </test>
+
+</suite>
