@@ -20,4 +20,23 @@
         </classes>
     </test>
 
+    <test name="strausscappelleTest">
+        <classes>
+            <class name="Tests.StrausscappelleTest"/>
+        </classes>
+    </test>
+
+    <test name="dukatTest">
+        <classes>
+            <class name="Tests.DukatTest"/>
+        </classes>
+    </test>
+
+    <test name="panSkrzynkaTest">
+        <classes>
+            <class name="Tests.PanSkrzynkaTest"/>
+        </classes>
+    </test>
+
+
 </suite>
